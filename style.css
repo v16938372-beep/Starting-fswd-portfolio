@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7; 
+}
+
+.main {
+   display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #32abe4;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+}
+
+.box {
+
+    background-color: #f6e8e8;   /* light grey */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08);
+    font-size: 20px;
+}
+    
+
+.box h3 {
+    color: #1e73be;
+    margin-top: 0;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background-color: #1e73be;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Gender selection container */
+p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Label styling */
+label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  color: #444;
+}
+
+/* Hide default radio */
+input[type="radio"] {
+  accent-color: #4f46e5; /* modern browsers */
+  width: 16px;
+  height: 16px;
+}
+
+/* Hover effect */
+label:hover {
+  color: #4f46e5;
+}
+
+/* Optional: container spacing */
+.gender-group {
+  padding: 10px 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 22px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff4d67;   /* hover effect */
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 22px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #ff4d67;   /* hover effect */
+}
+.footer {
+    background-color: #5ac0f3;  /* dark background */
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    position: relative;  /* or fixed if hamesha bottom pe chahiye */
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer .social-icons {
+    margin-top: 10px;
+}
+
+.footer .social-icons a {
+    color: rgb(197, 207, 211);
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer .social-icons a:hover {
+    color: #38b4ed; /* hover color */
+}
